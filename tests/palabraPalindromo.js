@@ -1,6 +1,4 @@
-
-
-function palabraPalidromo(cadena){
+export function palabraPalidromo(cadena){
   
     let array = cadena.split("");
    let reverse = array.reverse();
